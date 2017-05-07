@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+/**
+
+  Ecrire un programme qui demande à l'utilisateur de saisir le mot monsieur ou madame. Ensuite, 
+  il devra saisir son nom. Puis le programme 
+  affiche Bonjour suivi de monsieur ou madame selon la saisie suivi du nom saisi
+  
+  
+*/
+
+
+
+public class exjava {
+
+	
+	
+	
+	public static void main(String[] args) {
+	
+    // EXERCICE 1 : afficher une saisie
+	Scanner sc = new Scanner(System.in);	
+		
+		
+   //déclarer les deux variable
+     String monsieur;
+     String madame;
+     
+     
+  //utilisateur entre le nom de monsieur
+  System.out.println("Entrez votre nom  monsieur :  ");  
+  monsieur = sc.nextLine();
+  
+  // utilisateur entre le nom de madame
+  System.out.println("Entrez votre nom  madame : " );
+  madame = sc.nextLine();
+  
+  //afficher le nom pour monsieur
+  System.out.println("Votre nom monsieur : " + monsieur);
+  
+  //afficher le nom pour madame
+  System.out.println("\nVotre nom madame :  " + madame);
+		
+		
+
+		
+		
+		
+		
+}
+}
