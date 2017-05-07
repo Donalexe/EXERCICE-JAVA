@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+
+/**
+
+  Ecrire un programme qui demande à l’utilisateur d’entrer 
+  un nombre entier. Puis le programme affiche la table de 
+  multiplication de ce nombre de 0 à 10
+  
+  
+*/
+
+
+
+public class exjava {
+
+	
+	
+	
+	public static void main(String[] args) {
+	
+    // EXERCICE 
+	Scanner sc = new Scanner(System.in);	
+		
+		
+   //déclarer les  variable
+    int nbr;
+     
+     
+  //utilisateur entre le nom de nbr
+  System.out.println("Entrez votre numéro :  ");  
+  nbr = sc.nextInt();
+  
+  //je peux faire la loup
+  for(int i = 0 ; i <= 10 ; i++ ){
+	  
+	  
+	  
+	  System.out.println("Votre résulta et : " + i*nbr);
+	  
+	  
+  }
+  
+
+		
+		
+
+	
+		
+}
+}
