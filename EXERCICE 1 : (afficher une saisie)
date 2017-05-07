@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+/*
+
+  Ecrire un programme qui demande à l’utilisateur de saisir un nom au clavier. 
+  Puis le programme affiche bonjour suivi du nom de la personne
+  
+  
+*/
+
+
+public class exjava {
+
+	
+	
+	
+	public static void main(String[] args) {
+	
+    // EXERCICE 1 : afficher une saisie
+	Scanner sc = new Scanner(System.in);	
+		
+		
+   //déclarer les variable
+     String nom;		
+     
+     
+  //utilisateur entre le nom 
+  System.out.println("Entrez votre nom :  ");  
+  nom = sc.nextLine();
+  
+  // afficher le message pour utilisateur
+  System.out.println("Votre nom et : " + nom);
+  
+	
+		
+}
+}
